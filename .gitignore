@@ -1,0 +1,26 @@
+# Kredensial dan konfigurasi pribadi
+config.json
+
+# File rekaman lalu lintas jaringan & sesi (mengandung cookie/token autentikasi)
+*.har
+
+# Log eksekusi
+logs/
+*.log
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lingkungan virtual (Virtual Environment)
+venv/
+.venv/
+env/
+
+# Editor & OS metadata
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

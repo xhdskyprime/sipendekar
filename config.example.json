@@ -1,0 +1,94 @@
+{
+  "auth": {
+    "username": "NIP_ANDA",
+    "password": "PASSWORD_ANDA",
+    "fingerprint": "09a160f689f48ed27b96d6f2fbbeec79"
+  },
+  "sipendekar": {
+    "base_url": "https://sipendekar.tangerangkab.go.id/2026",
+    "year": 2026
+  },
+  "settings": {
+    "skip_weekends": true,
+    "max_hmin_days": 7,
+    "auto_confirm": false,
+    "delay_between_requests_sec": 1.5
+  },
+  "schedule": {
+    "enabled": true,
+    "time": "17:00",
+    "days": "mon-fri",
+    "skip_weekends": true,
+    "fill_missed_past_days": true,
+    "log_file": "logs/auto_isi.log"
+  },
+  "active_template": "pelatihan_prakom",
+  "templates": {
+    "pelatihan_prakom": {
+      "nama_template": "Pelatihan JF Pranata Komputer (Full Day)",
+      "deskripsi": "Mengikuti pelatihan jabatan fungsional pranata komputer (07:00 - 17:00, 600 menit)",
+      "items": [
+        {
+          "kode_aktifitas": "UTAMA00463",
+          "nama_aktifitas": "Mengikuti pelatihan/sosialisasi/pendidikan",
+          "volume": 2,
+          "keterangan": "mengikuti pelatihan jabatan fungsional pranata komputer",
+          "sasaran_kerja_id": 709828,
+          "jam_mulai": "07",
+          "menit_mulai": "00",
+          "jam_selesai": "17",
+          "menit_selesai": "00",
+          "jenis": "kinerja"
+        }
+      ]
+    },
+    "layanan_ti": {
+      "nama_template": "Pengelolaan Jaringan & Layanan TI",
+      "deskripsi": "Penerapan konfigurasi jaringan & tugas kedinasan TI (08:00 - 16:00)",
+      "items": [
+        {
+          "kode_aktifitas": "UTAMA01250",
+          "nama_aktifitas": "Melaksanakan Penerapan rancangan konfigurasi sistem jaringan komputer",
+          "volume": 2,
+          "keterangan": "Melakukan penanganan kendala jaringan, instalasi, dan monitoring infrastruktur TI",
+          "sasaran_kerja_id": 709809,
+          "jam_mulai": "08",
+          "menit_mulai": "00",
+          "jam_selesai": "12",
+          "menit_selesai": "00",
+          "jenis": "kinerja"
+        },
+        {
+          "kode_aktifitas": "UTAMA01120",
+          "nama_aktifitas": "Melaksanakan tugas kedinasan lain yang diperintahkan oleh pimpinan baik tertulis maupun lisan",
+          "volume": 3,
+          "keterangan": "Melaksanakan tugas kedinasan dan dukungan teknis operasional TI",
+          "sasaran_kerja_id": 709828,
+          "jam_mulai": "13",
+          "menit_mulai": "00",
+          "jam_selesai": "16",
+          "menit_selesai": "00",
+          "jenis": "kinerja"
+        }
+      ]
+    },
+    "vicon_meeting": {
+      "nama_template": "Penyiapan & Monitoring Video Conference (Vicon)",
+      "deskripsi": "Persiapan peralatan vicon dan koordinasi teknis rapat virtual (08:00 - 16:00)",
+      "items": [
+        {
+          "kode_aktifitas": "UTAMA01120",
+          "nama_aktifitas": "Melaksanakan tugas kedinasan lain yang diperintahkan oleh pimpinan baik tertulis maupun lisan",
+          "volume": 4,
+          "keterangan": "Menyiapkan peralatan video conference, monitoring perangkat, serta penataan layout audio visual",
+          "sasaran_kerja_id": 709821,
+          "jam_mulai": "08",
+          "menit_mulai": "00",
+          "jam_selesai": "16",
+          "menit_selesai": "00",
+          "jenis": "kinerja"
+        }
+      ]
+    }
+  }
+}
